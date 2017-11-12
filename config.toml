@@ -1,0 +1,6 @@
+title = "WWU CS"
+base_url = "https://wwucs.github.io"
+generate_categories_pages = false
+generate_tags_pages = false
+compile_sass = true
+highlight_code = true

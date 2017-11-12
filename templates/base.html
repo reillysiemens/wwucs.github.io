@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="{% block description %}{{ page.description }}{% endblock description %}">
+    <title>{% block title %}{{ page.title }}{% endblock title %}</title>
+    <link rel="stylesheet" href="{{ config.base_url | safe }}/main.css" />
+  </head>
+  <body>
+    {% block content %}
+      {{ page.content | safe }}
+    {% endblock content %}
+  </body>
+</html>
