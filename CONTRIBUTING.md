@@ -17,9 +17,9 @@ feel free to propose changes to this document in a pull request.
 
 ## Code of Conduct
 This project and everyone participating in it is governed by the
-[Code of Conduct][code-of-conduct]. By participating, you are expected to
-uphold this code. Please report unacceptable behavior to the
-[community admins][community-admins].
+[WWU CS Slack Community Code of Conduct][code-of-conduct]. By participating,
+you are expected to uphold this code. Please report unacceptable behavior to
+the [community admins][community-admins].
 
 ## How can I contribute?
 
