@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="{{ config.base_url | safe }}/main.css" />
   </head>
   <body>
+    <section>
     {% block content %}
       {{ page.content | safe }}
     {% endblock content %}
+    </section>
   </body>
 </html>

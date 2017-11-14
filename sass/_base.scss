@@ -1,0 +1,26 @@
+body {
+  margin: 1.5rem;
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  background-color: $base-background-color;
+}
+
+section {
+  max-width: 47rem;
+  margin: 0 auto;
+}
+
+a {
+  color: $link-color;
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font-family;
+}
+
+#wwu-cs-slack-community, #wwu-cs-slack-community-code-of-conduct {
+  text-align: center;
+  text-transform: uppercase;
+}
