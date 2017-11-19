@@ -20,7 +20,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $header-font-family;
 }
 
+* + h2 {
+    margin-top: 3rem;
+}
+
 #wwu-cs-slack-community, #wwu-cs-slack-community-code-of-conduct {
+  font-size: $header-font-size;
   text-align: center;
   text-transform: uppercase;
 }
