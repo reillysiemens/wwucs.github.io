@@ -1,0 +1,42 @@
+body {
+  margin: 1.5rem;
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  background-color: $base-background-color;
+}
+
+section {
+  max-width: 47rem;
+  margin: 0 auto;
+}
+
+a {
+  color: $link-color;
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font-family;
+}
+
+* + h2 {
+    margin-top: 3rem;
+}
+
+#wwu-cs-slack-community, #wwu-cs-slack-community-code-of-conduct {
+  font-size: $header-font-size;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (max-width: 640px) {
+  html {
+    font-size: 0.75rem;
+  }
+
+  body {
+    padding: 1.5rem 0;
+  }
+
+}
