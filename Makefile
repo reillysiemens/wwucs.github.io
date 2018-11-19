@@ -9,7 +9,7 @@ clean:
 	rm -rfv $(BUILD_DIR)
 
 build:
-	gutenberg build
+	zola build
 
 # This target supports the gh-pages target and should not be used directly.
 pre-gh-pages:
