@@ -51,27 +51,27 @@ These instructions assume you are using a Unix-like environment
 (e.g. macOS, Linux, etc.). Your mileage may vary on Windows and other
 platforms.
 
-This project is built using the [Gutenberg][gutenberg] static site generator.
+This project is built using the [Zola] static site generator.
 The tool is still young and while it provides several
-[installation options][gutenberg-installation] we recommend installing the
+[installation options][zola-installation] we recommend installing the
 latest version from source for which you will need [Rust][rust-lang] and
 [Git][git].
 
-These commands will download and install the latest version of Gutenberg
+These commands will download and install the latest version of Zola
 provided you have the aforementioned prerequisistes.
 ```shell
-git clone git@github.com:Keats/gutenberg.git /tmp/gutenberg
-pushd /tmp/gutenberg
+git clone git@github.com:getzola/zola.git /tmp/zola
+pushd /tmp/zola
 git checkout $(git describe --tags $(git rev-list --tags --max-count=1))
 cargo install  # This might take a minute. Grab some coffee.
 popd
 ```
 
 #### Workflow
-Once you have [Gutenberg][gutenberg] installed you can simply run `make` to
-build the site or you can invoke `gutenberg build` directly.
+Once you have [Zola] installed you can simply run `make` to
+build the site or you can invoke `zola build` directly.
 
-Gutenberg also supports a `gutenberg watch` subcommand that runs a local
+Zola also supports a `zola serve` subcommand that runs a local
 webserver for easier development. It will watch files
 (including templates and Sass) and reload your browser while you are making
 changes.
@@ -98,8 +98,8 @@ These contribution guidelines are based on
 [code-of-conduct]: CODE_OF_CONDUCT.md
 [community-admins]: https://wwucs.slack.com/account/team
 [issues]: https://github.com/wwucs/wwucs.github.io/issues
-[gutenberg]: https://www.getgutenberg.io/
-[gutenberg-installation]: https://www.getgutenberg.io/documentation/getting-started/installation/
+[Zola]: https://www.getzola.org/
+[zola-installation]: https://www.getzola.org/documentation/getting-started/installation/
 [rust-lang]: https://www.rust-lang.org/
 [git]: https://git-scm.com/
 [atom-contribution-guidelines]: https://github.com/atom/atom/blob/master/CONTRIBUTING.md
